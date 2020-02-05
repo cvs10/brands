@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#container {
+    width: 1000px;
+    height: 660px;
+    background-color: #929292;
+    margin: 0 auto;
+    position: relative;
+    opacity: 0,5;
+}
+
+#content {
+    display: grid;
+    position: absolute;
+    background-color: white;
+    grid-auto-columns: 1fr;
+    grid-template-rows: 50px 70px 240px 70px 100px 70px; 
+    width: 900px; 
+    height: 600px;
+    margin: 0 auto;
+    top: 25px;
+    left: 50px;
+    border: solid 2px #e5ceae;
+    box-shadow: 20px rgba(0, 0, 0, 0.35); ; 
+}
+
+#one {
+    background-color: white;
+    border-bottom: solid 2px #e5ceae;
+}
+
+#one p {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    color: #30306d;
+    padding-top: 13px;
+}
+
+ #two {
+     background-color: white;
+     display: grid;
+     grid-template-columns: repeat(3, auto);
+     align-content: center;
+     justify-content: space-evenly;
+     padding-left: 60px;
+ }
+
+ #two p {
+     font-size: 14px;
+ }
+
+ #subscribe {
+     background-color: #e5ceae;
+ }
+
+ #subscribe form {
+    font-size: 16px;
+    font-weight: lighter;
+    color: #323232; 
+    padding-left: 300px;
+
+ }
+
+ #subscribe form input {
+    height: 26px;
+    width: 200px;
+    margin: 10px 10px 10px 10px;
+    border-bottom: solid 1px #30306d;
+ }
+
+ #subscribe form input.submit {
+    height: 30px;
+    width: 160px;
+    font-size: 12px;
+    color: white;
+    background-color: #30306d;
+    align-content: center;
+    text-align: center;
+    margin-left: 80px;
+ }
+
+ #subscribe p {
+     margin-left: 360px;
+     margin-top: 30px;
+ }
+
+ #subscribe p span {
+     color: #30306d;
+ }
+
+ #marki {
+     display: grid;
+     grid-template-columns: 150px 750px;
+     grid-template-rows: 1fr;
+     background-color: white;
+     border-bottom: solid 2px #e5ceae;
+ }
+
+ #marki p {
+     font-size: 14px;
+     text-align: center;
+     padding-top: 25px;
+     color: #323232;
+ }
+
+#marki img {
+     width: 750px;
+     height: 68px;
+     object-fit: cover;
+ }
+
+ #gwiazdy {
+     background-color: white;
+     display: grid;
+     grid-template-columns: 150px 90px 90px 90px 90px 90px 90px 90px 90px;
+     grid-template-rows: 1fr;
+     grid-column-gap: 2px;
+     border-bottom: solid 2px #e5ceae;
+ }
+
+ #gwiazdy p {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 40px;
+    color: #323232;
+}
+
+#gwiazdy img.avatars {
+    width: 90px;
+    height: 90px;
+    padding-left: 15px;
+    padding-top: 4px;
+    object-fit: cover;
+
+}
+
+ #onas {
+     display: grid;
+     grid-template-columns: 150px 750px;
+     grid-template-rows: 1fr;
+     background-color: white;
+ }
+
+ #onas p {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 25px;
+    color: #323232;
+}
+
+#onas img {
+    width: 750px;
+    height: 68px;
+    object-fit: cover;
+}
